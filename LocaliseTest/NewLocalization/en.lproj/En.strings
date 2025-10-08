@@ -10,3 +10,5 @@
 "goodbye" = "Goodbye!";
 "thank_you" = "Thank you!";
 "welcome_message" = "Welcome to our application!";
+"error_message" = "An error has occurred. Please try again.";
+"loading" = "Loading...";
