@@ -97,7 +97,6 @@
 			knownRegions = (
 				en,
 				Base,
-				nl,
 				si,
 			);
 			mainGroup = 248F31202E9633FF00AA2E2D;

@@ -2,19 +2,54 @@
   "sourceLanguage" : "en",
   "strings" : {
     "detail_message" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detail Message"
+          }
+        }
+      }
     },
     "detail_title" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detail Title"
+          }
+        }
+      }
     },
     "go_to_detail" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go To"
+          }
+        }
+      }
     },
     "notifications" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notification"
+          }
+        }
+      }
     },
     "welcome_header" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome"
+          }
+        }
+      }
     },
     "welcome_message" : {
       "extractionState" : "manual",
