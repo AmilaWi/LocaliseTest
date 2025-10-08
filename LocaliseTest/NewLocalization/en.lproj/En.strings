@@ -1,0 +1,12 @@
+/* 
+  En.strings
+  LocaliseTest
+
+  Created by Amila on 2025-10-08.
+  
+*/
+
+"hello_world" = "Hello, World!";
+"goodbye" = "Goodbye!";
+"thank_you" = "Thank you!";
+"welcome_message" = "Welcome to our application!";
