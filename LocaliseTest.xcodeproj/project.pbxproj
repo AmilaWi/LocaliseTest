@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		248F313D2E9639F800AA2E2D /* Lokalise in Frameworks */ = {isa = PBXBuildFile; productRef = 248F313C2E9639F800AA2E2D /* Lokalise */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		248F31292E9633FF00AA2E2D /* LocaliseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocaliseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248F313D2E9639F800AA2E2D /* Lokalise in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = LocaliseTest;
 			packageProductDependencies = (
+				248F313C2E9639F800AA2E2D /* Lokalise */,
 			);
 			productName = LocaliseTest;
 			productReference = 248F31292E9633FF00AA2E2D /* LocaliseTest.app */;
@@ -91,9 +97,14 @@
 			knownRegions = (
 				en,
 				Base,
+				nl,
+				si,
 			);
 			mainGroup = 248F31202E9633FF00AA2E2D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				248F313B2E9639F800AA2E2D /* XCRemoteSwiftPackageReference "lokalise-ios-framework" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 248F312A2E9633FF00AA2E2D /* Products */;
 			projectDirPath = "";
@@ -183,6 +194,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -238,6 +250,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Release;
 		};
@@ -341,6 +354,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		248F313B2E9639F800AA2E2D /* XCRemoteSwiftPackageReference "lokalise-ios-framework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lokalise/lokalise-ios-framework.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		248F313C2E9639F800AA2E2D /* Lokalise */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 248F313B2E9639F800AA2E2D /* XCRemoteSwiftPackageReference "lokalise-ios-framework" */;
+			productName = Lokalise;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 248F31212E9633FF00AA2E2D /* Project object */;
 }

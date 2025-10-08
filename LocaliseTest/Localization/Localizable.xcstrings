@@ -1,0 +1,38 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "detail_message" : {
+
+    },
+    "detail_title" : {
+
+    },
+    "go_to_detail" : {
+
+    },
+    "notifications" : {
+
+    },
+    "welcome_header" : {
+
+    },
+    "welcome_message" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to Localize Demo"
+          }
+        },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Localize Demo වෙත සාදරයෙන් පිළිගනිමු."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

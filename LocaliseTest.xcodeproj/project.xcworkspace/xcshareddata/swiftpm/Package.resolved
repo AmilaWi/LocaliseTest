@@ -1,0 +1,15 @@
+{
+  "originHash" : "1a5e47fbf83f5f0ea30c86975c0af7047ebaf537b3d3fe54f097321c00fba664",
+  "pins" : [
+    {
+      "identity" : "lokalise-ios-framework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lokalise/lokalise-ios-framework.git",
+      "state" : {
+        "revision" : "319b7634c4a9e5d575c33354ce3376023a133711",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}
