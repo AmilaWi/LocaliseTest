@@ -18,7 +18,7 @@ struct ContentView: View {
                     .imageScale(.large)
                     .foregroundStyle(.tint)
                 
-                Text(NSLocalizedString("welcome_header", comment: ""))
+                Text(NSLocalizedString("welcome_message", comment: ""))
                 
                 // Navigation to DetailView
                 NavigationLink(destination: DetailView()) {

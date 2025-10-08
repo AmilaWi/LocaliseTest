@@ -42,6 +42,7 @@
       }
     },
     "welcome_header" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -52,21 +53,7 @@
       }
     },
     "welcome_message" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Welcome to Localize Demo"
-          }
-        },
-        "si" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Localize Demo වෙත සාදරයෙන් පිළිගනිමු."
-          }
-        }
-      }
+
     }
   },
   "version" : "1.0"
