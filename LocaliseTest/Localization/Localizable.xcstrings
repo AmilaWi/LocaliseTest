@@ -8,6 +8,12 @@
             "state" : "translated",
             "value" : "Detail Message"
           }
+        },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detail Message"
+          }
         }
       }
     },
