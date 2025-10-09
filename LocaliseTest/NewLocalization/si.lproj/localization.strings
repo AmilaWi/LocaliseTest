@@ -1,10 +1,11 @@
 /* 
-  Sinhala.strings
+  En.strings
   LocaliseTest
 
   Created by Amila on 2025-10-08.
   
 */
+
 "hello_world" = "හෙලෝ වර්ල්ඩ්!";
 "goodbye" = "සුභ දවසක්!";
 "thank_you" = "ඔබට ස්තුතියි!";

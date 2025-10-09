@@ -44,7 +44,6 @@ struct ContentView: View {
 }
 
 struct DetailView: View {
-//    @ObservedObject var loc = LocalizationManager.shared
     
     var body: some View {
         VStack(spacing: 20) {
@@ -52,6 +51,7 @@ struct DetailView: View {
                 .font(.title)
             
             Text(NSLocalizedString("detail_message", comment: ""))
+                .multilineTextAlignment(.center)
         }
         .padding()
 
