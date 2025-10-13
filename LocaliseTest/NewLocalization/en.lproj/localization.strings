@@ -9,7 +9,7 @@
 "hello_world" = "Hello, World!";
 "goodbye" = "Goodbye!";
 "thank_you" = "Thank you!";
-"welcome_message" = "Welcome to our application!";
+"welcome_message" = "Welcome to our localise Test Application!";
 "error_message" = "An error has occurred. Please try again.";
 "loading" = "Loading...";
-"detail_message" = "Detail Message";
+"detail_message" = "Navigation View Massage";
